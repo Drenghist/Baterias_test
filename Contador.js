@@ -17,7 +17,9 @@ function iniciar() {
   //Meto los disparadores para cuando deselecciono uno de los inputs no NFC
   document.getElementById("input4").addEventListener("blur",prelanzar, false);
   document.getElementByID("input5").addEventListener("blur",prelanzar,false);
-  document.getElementByID("input6").addEventListener("change",prelanzar,false);
+  document.getElementByID("input6").addEventListener("change",alert("cambio"),false);
+  document.getElementByID("input6").addEventListener("blur",alert("blur"),false);
+  document.getElementByID("input6").addEventListener("keyup",alert("keyup"),false);
 }
 
 /*
