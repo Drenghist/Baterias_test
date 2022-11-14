@@ -16,12 +16,12 @@ function iniciar() {
   document.getElementById("input4").addEventListener("keyup",clicktecla, false);
   //Meto los disparadores para cuando deselecciono uno de los inputs no NFC
   document.getElementById("input4").addEventListener("blur",prelanzar, false);
-  document.getElementByID("input5").addEventListener("blur",alert("lanza!"),false);
-  document.getElementByID("input6").addEventListener("change",alert("cambio"),false);
-  document.getElementByID("input6").addEventListener("blur",alert("blur"),false);
-  document.getElementByID("input6").addEventListener("keyup",alert("keyup"),false);
-  document.getElementByID("input6").addEventListener("click",alert("click"),false);
-  document.getElementByID("input6").addEventListener("focus",alert("pocus"),false);
+  document.getElementById("input5").addEventListener("blur",prelanzar,false);
+  //document.getElementById("input6").addEventListener("change",alert("cambio"),false);
+  document.getElementById("input6").addEventListener("blur",alert("blur"),false);
+  //document.getElementById("input6").addEventListener("keyup",alert("keyup"),false);
+  //document.getElementById("input6").addEventListener("click",alert("click"),false);
+  //document.getElementById("input6").addEventListener("focus",alert("pocus"),false);
 }
 
 /*
