@@ -21,6 +21,7 @@ function iniciar() {
   document.getElementByID("input6").addEventListener("blur",alert("blur"),false);
   document.getElementByID("input6").addEventListener("keyup",alert("keyup"),false);
   document.getElementByID("input6").addEventListener("click",alert("click"),false);
+  document.getElementByID("input6").addEventListener("focus",alert("pocus"),false);
 }
 
 /*
